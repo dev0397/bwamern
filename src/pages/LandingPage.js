@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
-
-import moduleName from 'elements/Button'
+// import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom'
+import Header from 'parts/Header'
 
 export default class LandingPage extends Component {
     render() {
         return (
-            <div>
-                
-            </div>
+            <>
+              <Header {...this.props}></Header>  
+            </>
         )
     }
 }
